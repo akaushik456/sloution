@@ -1,0 +1,161 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.full-page{
+    width: 100%;
+    display: flex;
+}
+.main-left{
+    width: 20%;
+    padding: 50px 0px 0 50px;
+}
+.main-area{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    display: flex;
+
+}
+.logo-image{
+    width: 100%;
+}
+.logo-image img{
+    width: 100px;
+}
+nav{
+    width: 100%;
+    display: flex;
+}
+nav ul{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+ul li{
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+ul li a{
+    color: #8d8d8d;
+    text-decoration: none;
+}
+nav ul li:hover{
+    color: #8d8d8d;
+}
+.main-right{
+    width: 80%;
+    padding-top: 50px;
+}
+.portfolio{
+    width: 100%;
+}
+.main-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.image-area{
+    width: 100%;
+    display: flex;
+}
+.unorder-image{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.unorder-image li{
+    width: 33%;
+    margin-top: 20px;
+}
+.images{
+    width: 90%;
+}
+.images img{
+    width: 100%;
+}
+.un-dorp{
+    color: #000;
+    display: none;
+    padding: 0 0 0 15px;
+}
+.un-dorp li{
+    font-size: 15px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.un-dorp-btn{
+    color: #000;
+    display: none;
+    padding: 0 0 0 15px;
+}
+.un-dorp-btn li{
+    font-size: 15px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.heading{
+    font-size: 17px; 
+}
+.form-section{
+    width: 100%;
+}
+.form-controller{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.display{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 30px;
+}
+.rr-form-contact{
+    width: 60%;
+}
+.heading-msg{
+    font-size: 18px;
+    color: #8d8d8d;
+    font-weight: lighter;
+}
+.contact-intro{
+    width: 30%;
+}
+.msg-btn{
+    width: 100%;
+    height: 40px;
+    background: #E5AE47;
+    text-align: center;
+    padding: 8px;
+    margin-top: 16px;
+}
+.msg-btn a{
+    width: 100%;
+    color: #fff;
+    border: 1px solid #E5AE47;
+    text-decoration: none;
+    font-size: 20px;
+}
+.intro-all{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+.strong{
+    font-weight: lighter;
+    font-size: 18px;
+}
+.para-tag{
+    font-weight: lighter;
+    font-size: 15px;
+}
