@@ -51,7 +51,7 @@
     <div class="main-right">
       <section class="form-section"> 
         <div class="main-container">
-
+   
           <div class="form-controller">
            <h1 class="heading">Geocode was not successful for the following reason: REQUEST_DENIED</h1>
             
@@ -60,11 +60,11 @@
             <form action="action_page.php" class="rr-form-contact" >
               <h2 class="heading-msg">SEND MESSAGE</h2>
               <hr style="width: 100%;">
-             <input type="text" id="fullName" onclick="myFunction(event)" placeholder="NAME"  style="width: 49%; height: 45px; border: 1px solid #8d8d8d; outline: none;" />
-             <input type="text" id="email" onclick="myFunction(event)" placeholder="EMAIL"  style="width: 50%; height: 45px; border: 1px solid #8d8d8d; outline: none;" />
+             <input type="text" name="fullName" onclick="myFunction(event)" placeholder="NAME"  style="width: 49%; height: 45px; border: 1px solid #8d8d8d; outline: none;" />
+             <input type="text" name="email" onclick="myFunction(event)" placeholder="EMAIL"  style="width: 50%; height: 45px; border: 1px solid #8d8d8d; outline: none;" />
              <br>
-             <input type="text" id="subject"  onclick="myFunction(event)" placeholder="SUBJECT"  style="margin-top: 15px; width: 100%; height: 45px; border: 1px solid #8d8d8d; outline: none;">
-             <textarea type="message" id="message" onclick="myFunction(event)" rows="8" placeholder="Message" style="resize: none; width: 100%; margin-top: 15px; border: 1px solid #8d8d8d; outline: none;"></textarea>
+             <input type="text" name="subject"  onclick="myFunction(event)" placeholder="SUBJECT"  style="margin-top: 15px; width: 100%; height: 45px; border: 1px solid #8d8d8d; outline: none;">
+             <textarea type="message" name="message" onclick="myFunction(event)" rows="8" placeholder="Message" style="resize: none; width: 100%; margin-top: 15px; border: 1px solid #8d8d8d; outline: none;"></textarea>
               <div class="msg-btn" onclick="submitForm(event)">
                   <a href="#">SEND MESSAGE</a>
               </div>
@@ -81,7 +81,8 @@
                 </li>
                 <hr>
                 <li>
-                  <span>Address:
+                
+                 <span>Address:
                     <strong class="strong">Haryana,INDIA</strong>
                   </span>
                 </li>

@@ -200,3 +200,15 @@ nav ul li:hover{
     opacity: 1;
     visibility: visible;
   }
+
+  @media(max-width:1200px) {
+    .full-page{
+        width: 100%;
+    }
+    .main-left{
+        width: 20%;
+    }
+    .header{
+        width: 100%;
+    }
+  }
